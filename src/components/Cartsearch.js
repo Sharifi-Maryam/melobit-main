@@ -30,20 +30,17 @@ const Cartsearch=()=>{
           <div className='col-md-2 col-sm-11 col-11'>
           <div id='boxSearch' className='w-100 d-flex justify-content-between align-items-center'>
                        <input type="text" className='px-3' placeholder='        ...اینجا بنویسید' value={searchInput} 
-                      
-                      onChange={saveSearchHandeler} 
 
+                      onChange={saveSearchHandeler} 
                       onKeyPress={event => {
                         if (event.key === "Enter") {
                           searchHandler()
                         }
-                      }}
-                       />
+                      }}/>
                     </div>
           </div>
         </div>
         <div className='row justify-content-center mt-3' >
-
       {
        searchResult.map((s)=>(
           
@@ -63,16 +60,11 @@ const Cartsearch=()=>{
                      <img className='imgP' src={play} alt="play icon" />
                     </Link> 
                 </div>
-
                </div>
-            
         ))
       }
               </div>
-
       </div>
-        
-    
     );
 }
 

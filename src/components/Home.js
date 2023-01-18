@@ -11,7 +11,6 @@ const Home = () => {
             <Newsongs/>
             <Topdaysong/>
             <Trendingartists/>
-            
         </div>
     );
 }

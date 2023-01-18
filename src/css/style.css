@@ -100,7 +100,6 @@ header #searchDiv{
     opacity: 0;
     margin-top: 30px;
     filter: blur(10px);
-    border-radius: 20px;
 }
 #details  button{
     width: 120px;
@@ -116,8 +115,8 @@ header #searchDiv{
 }
 #details .top-cart{
     height: 396px;
-    background-color:#D9D9D940;
-    border-radius: 15px;
+    background-color:#3E606F;
+    border-radius: 5%;
     top: -310px;
     padding-top: 20px;
 }
@@ -130,7 +129,7 @@ header #searchDiv{
     z-index: 5;
     height: 200px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, .3);
+    
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
 }
@@ -179,19 +178,13 @@ header #searchDiv{
 #details .a-details{
     font-size: 20px;
 }
-/* top */
+/*جدیدترین آهنگ ها*/
 #topComponent{
     background-color: #3E606F;
-}
-#topComponent img{
-    border-radius: 20px;
 }
 /*trending Artists*/
 .trendingA{
     background-color: #3E606F;
-}
-.trendingA img{
-    border-radius: 10%;
 }
 .link-play {
     bottom: -40px;
