@@ -1,0 +1,120 @@
+
+*{
+    color: #D6E4E5 !important;
+
+}
+body{
+    background-color: #193441 !important;
+    padding-bottom: 30px;
+}
+h2{
+      font-size: 40px;
+}
+header h1{
+    font-size: 60px;
+}
+header a{
+    font-size: 20px;
+
+}
+
+
+/*نوار جستجو*/
+header #searchDiv{
+    
+    background-color:#EB6440;
+    margin-top: 10px;
+    width: 230px;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+#searchDiv img{
+    width: 15.7px;
+    height: 15.7px;
+
+}
+ #boxSearch{
+    height: 47px;
+    text-align: center;
+    color: #EB6440;
+}
+#boxSearch input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    height: 34px;
+
+}
+#boxSearch input::placeholder{
+    color: #ffff;
+}
+#boxSearch img{
+  width: 16.7px;
+  height: 16.7px;
+  cursor: pointer;
+}
+
+/*نتیجه جستحو*/
+#divCartSearch{
+    height: 130px;
+    background-color: #D6E4E5;
+}
+.artistName{
+    color: #193441 !important;
+}
+#divCartSearch > img{
+  width: 130px;
+  height: 110px;
+
+}
+.imgP{
+    color: #EB6440;
+}
+#divCartSearch a img{
+    width:30px;
+    height: 30px;
+}
+
+
+
+
+/*carousel*/
+.carousel {
+    width: 300px;
+    height:400px
+    
+}
+.carousel img{
+    height: 400px;
+}
+.carousel-caption{
+    top: 0;
+    left: -40% !important;
+} 
+.carousel-caption button{
+    background-color: #3E606F;
+    width: 157.18px;
+    height:42.64px;
+    border-radius: 50px;
+    border: none;
+    font-size: 17px;
+}
+.carousel-caption img{
+    width: 33.39px;
+    height: 33.39px;
+}
+
+
+
+
+/* top */
+
+#topComponent{
+    background-color: #3E606F;
+}
+#topComponent img{
+    border-radius: 20px;
+}
