@@ -1,7 +1,6 @@
 
 *{
     color: #D6E4E5 !important;
-
 }
 body{
     background-color: #193441 !important;
@@ -17,8 +16,6 @@ header a{
     font-size: 20px;
 
 }
-
-
 /*نوار جستجو*/
 header #searchDiv{
     
@@ -33,7 +30,6 @@ header #searchDiv{
 #searchDiv img{
     width: 15.7px;
     height: 15.7px;
-
 }
  #boxSearch{
     height: 47px;
@@ -46,7 +42,6 @@ header #searchDiv{
     outline: none;
     font-size: 18px;
     height: 34px;
-
 }
 #boxSearch input::placeholder{
     color: #ffff;
@@ -56,7 +51,6 @@ header #searchDiv{
   height: 16.7px;
   cursor: pointer;
 }
-
 /*نتیجه جستحو*/
 #divCartSearch{
     height: 130px;
@@ -68,7 +62,6 @@ header #searchDiv{
 #divCartSearch > img{
   width: 130px;
   height: 110px;
-
 }
 .imgP{
     color: #EB6440;
@@ -77,15 +70,10 @@ header #searchDiv{
     width:30px;
     height: 30px;
 }
-
-
-
-
 /*carousel*/
 .carousel {
     width: 300px;
-    height:400px
-    
+    height:400px;
 }
 .carousel img{
     height: 400px;
@@ -106,15 +94,117 @@ header #searchDiv{
     width: 33.39px;
     height: 33.39px;
 }
+/*جزئیات آهنگ ها*/
+#details .bg-blur img{
+    height:200px ;
+    opacity: 0;
+    margin-top: 30px;
+    filter: blur(10px);
+    border-radius: 20px;
+}
+#details  button{
+    width: 120px;
+    height: 34px;
+    border-radius: 20px;
+    background-color: #EB6440;
+    border: none;
+    font-size:12px;
+}
+.pt-3{
+    color: #193441 !important;
+    font-weight: bold;
+}
+#details .top-cart{
+    height: 396px;
+    background-color:#D9D9D940;
+    border-radius: 15px;
+    top: -310px;
+    padding-top: 20px;
+}
+#details .top-cart img{
+    width: 300px;
+    height:300px ;
+}
+#details .bottom-cart{
+    top: -410px;
+    z-index: 5;
+    height: 200px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+@media only screen and (max-width:900px){
+    #details .top-cart{
+        top:0;
+    }
+#details .bottom-cart{
+    top: -100px;
+}
+#details .top-cart img{
+    width: 100%;
+}
+#details .col-download{
+    margin-top: -50px;
+}
 
-
-
-
+.carousel-caption{
+    left: -30% !important;
+} 
+}
+#details .play img{
+    width: 33.39px;
+    height: 33.39px;
+}
+#details .play button{
+    border: none;
+    background: none;
+}
+#details .progressbar-div{
+    width: 90%;
+    margin: 0 auto;
+    height: 4px;
+    background-color: #193441;
+    position: relative;
+    cursor: pointer;
+}
+#details .progress-div{
+    height: 100%;
+    position: absolute;
+    background-color: #EB6440;
+}
+#details .duration-ct{
+    font-size: 10px;
+}
+#details .a-details{
+    font-size: 20px;
+}
 /* top */
-
 #topComponent{
     background-color: #3E606F;
 }
 #topComponent img{
     border-radius: 20px;
+}
+/*trending Artists*/
+.trendingA{
+    background-color: #3E606F;
+}
+.trendingA img{
+    border-radius: 10%;
+}
+.link-play {
+    bottom: -40px;
+    right: 40px;
+    transition: 0.5s;
+}
+.link-play img{
+    width: 33.39px;
+    height: 33.39px;
+}
+.container-play-icon{
+    cursor: pointer;
+}
+.container-play-icon:hover .link-play{
+    bottom: 20px;
 }
